@@ -24,10 +24,10 @@ Expo.save_graph(
     ylabel="y",
     xlabel="x",
     filename="output/pres2.svg",
-    title="f(x) = 2^x+3",
+    title="f(x) = 2^x+2",
 )
 
-h(x) = 2^(x-2)
+h(x) = 2^(x+2)
 Expo.save_graph(
     h;
     xrange=(-10, 10),
@@ -37,7 +37,7 @@ Expo.save_graph(
     xlabel="x",
     ylabel="y",
     filename="output/pres3.svg",
-    title="f(x) = 2^(x-2)",
+    title="f(x) = 2^(x+2)",
 )
 
 i(x) = 0.5*3^(x+2)-7
